@@ -158,10 +158,6 @@ img {
 }
 
 /* || About Section */
-.about {
-    scroll-margin-top: -1px;
-}
-
 .about .about-paragraph {
     font-size: 25px;
     font-weight: 400;
@@ -274,18 +270,15 @@ img {
 .education .card {
     background-color: transparent;
     border: none;
+    margin-bottom: 1em;
 }
 
 .education .card .card-body {
-    padding-top: 0.7rem;
+    padding: 14px 0 0 0;
 }
 
-.education .card .card-body h3 {
-    margin-bottom: 0.25rem;
-}
-
-.education .card .card-body h5 {
-    margin-bottom: 0.25rem;
+.education .card .card-body h3, h5 {
+    margin: 1px;
 }
 
 .education .card .card-body h6 {
@@ -333,14 +326,62 @@ img {
 }
 
 /* || Contact Section */
+.contact .section-title {
+    margin-top: -1em;
+}
+
 .contact p {
     font-size: 27px;
+    margin-bottom: 0;
 }
 
 /* || Responsive */
+@media(max-width: 1397.80px) {
+    .education .card .card-body {
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+}
+
+@media(max-width: 1199.40px) {
+    .education .card img {
+        padding-top: 9px;
+    }
+    
+    .education .card .card-body {
+        padding-top: 8px;
+    }
+}
+
 @media(max-width: 1199.20px) {
     .home .typing-effect {
         font-size: 30px;
+    }
+}
+
+@media (max-width: 1036px) {
+    .experience .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+
+    .experience .timeline .event {
+        padding-top: 30px;
+    }
+
+    .experience .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+
+    .experience .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+@media(max-width: 1033.80px) {
+    .education .card img {
+        padding-top: 7px;
     }
 }
 
@@ -362,6 +403,14 @@ img {
         border: 3px solid transparent;
         border-radius: 8px;
     }
+
+    .education .card img {
+        padding-top: 0px;
+    }
+
+    .education .card .card-body {
+        padding-top: 8px;
+    }
 }
 
 @media (max-width: 767.20px) {
@@ -372,25 +421,32 @@ img {
     .home-text {
         margin-bottom: 30px;
     }
-}
 
-@media (max-width: 767px) {
-    .experience .timeline {
-        max-width: 98%;
-        padding: 25px;
+    .section-title {
+        font-size: 45px;
     }
 
-    .experience .timeline .event {
-        padding-top: 30px;
+    .about .about-paragraph {
+        font-size: 20px;
     }
 
-    .experience .timeline .event:before {
-        left: 0px;
-        text-align: left;
+    .education .card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .experience .timeline .event:after {
-        left: -31.8px;
+    .education .card .card-body {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .education .card .card-body h6 {
+        margin: 0;
+    }
+
+    .contact p {
+        font-size: 22px;
     }
 }
 
@@ -446,5 +502,13 @@ img {
 
     .home-text {
         margin-bottom: 20px;
+    }
+
+    .section-title {
+        font-size: 40px;
+    }
+
+    .about .about-paragraph {
+        font-size: 17px;
     }
 }
