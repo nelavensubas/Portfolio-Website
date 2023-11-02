@@ -300,6 +300,10 @@ img {
     margin-bottom: 0.5em;
 }
 
+.projects .card .card-body .card-text .bullet-edge-case {
+    margin-bottom: 5rem;
+}
+
 .projects .card .card-body .card-text p {
     margin-bottom: 0;
 }
@@ -340,6 +344,10 @@ img {
     .education .card .card-body {
         padding-top: 13px;
         padding-left: 20px;
+    }
+
+    .projects .card .card-body .card-text .bullet-edge-case {
+        margin-bottom: 8rem;
     }
 }
 
@@ -411,6 +419,10 @@ img {
     .education .card .card-body {
         padding-top: 8px;
     }
+
+    .projects .card .card-body .card-text .bullet-edge-case {
+        margin-bottom: 3rem;
+    }
 }
 
 @media (max-width: 767.20px) {
@@ -443,6 +455,10 @@ img {
 
     .education .card .card-body h6 {
         margin: 0;
+    }
+
+    .projects .card .card-body .card-text .bullet-edge-case {
+        margin-bottom: 0rem;
     }
 
     .contact p {
