@@ -116,39 +116,6 @@ img {
     }
 }
 
-.home .button {
-    padding: 0.8rem 2.2rem;
-    font: normal 500 16px/20px var(--roboto);
-    position: relative;
-    border: 3px solid transparent;
-    border-radius: 8px;
-}
-
-.home .button.home-button {
-    background: white;
-    background-clip: padding-box;
-    color: black;
-    transition: background .4s ease;
-}
-
-.home .button.home-button:hover {
-    background: #161616;
-    background-clip: padding-box;
-    color: white;
-}
-
-.button.home-button::after {
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    bottom: -2px;
-    right: -2px;
-    background: white;
-    content: ' ';
-    z-index: -1;
-    border-radius: 4px;
-}
-
 .home-img img {
     width: 100%;
 }
@@ -404,14 +371,6 @@ img {
         margin: 0 0 15px;
     }
 
-    .home .button {
-        padding: 0.6rem 1.65rem;
-        font: normal 500 12px/15px var(--roboto);
-        position: relative;
-        border: 3px solid transparent;
-        border-radius: 8px;
-    }
-
     .education .card img {
         padding-top: 0px;
     }
@@ -506,14 +465,6 @@ img {
     .home .typing-effect {
         font-size: 16px;
         margin: 0 0 10px;
-    }
-
-    .home .button {
-        padding: 0.4rem 1.1rem;
-        font: normal 500 8px/10px var(--roboto);
-        position: relative;
-        border: 3px solid transparent;
-        border-radius: 8px;
     }
 
     .home-text {
